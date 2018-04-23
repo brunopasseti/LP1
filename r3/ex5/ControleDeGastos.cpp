@@ -15,7 +15,7 @@ void ControleDeGastos::setDespesa(Despesa d){
 double ControleDeGastos::calculaTotalDeDespesas(){
 	double total = 0;
 	for(int i = 0; i < this->qDespesas; i++){
-		std::cout << this->despesas[i].getValor() << '\n';
+		//std::cout << this->despesas[i].getValor() << '\n';
 		total += despesas[i].getValor();
 	}
 	return total;
