@@ -8,7 +8,7 @@
 class ControleDeGastos{
 	public:
 		ControleDeGastos();
-		void setDespesa(double valor, std::string tipoDeGasto);
+		void setDespesa(Despesa d);
 		double calculaTotalDeDespesas();
 		bool existeDespesaDoTipo(std::string tipo);
 		int qDespesas;

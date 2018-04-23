@@ -8,7 +8,7 @@ class Despesa{
 	public:
 		Despesa();
 		Despesa(double valor, std::string tipoDeGasto);
-		~Despesa();
+		//~Despesa();
 		double getValor();
 		void setValor(double valor);
 		std::string getTipo();

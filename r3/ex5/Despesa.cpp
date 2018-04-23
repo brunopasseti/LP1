@@ -6,7 +6,6 @@ Despesa::Despesa(){
 Despesa::Despesa(double valor, std::string tipoDeGasto){
 	this->valor = valor;
 	this->tipoDeGasto = tipoDeGasto;
-	std::cout << tipoDeGasto << std::endl;
 }
 double Despesa::getValor(){
 	return valor;
